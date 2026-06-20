@@ -1,0 +1,35 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 日志
+*.log
+logs/
+
+# 环境变量
+.env
+
+# 前端
+node_modules/
+/dist
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 大数据组件临时文件
+checkpoint/
+derby.log
+metastore_db/
+
+# 测试
+coverage/
